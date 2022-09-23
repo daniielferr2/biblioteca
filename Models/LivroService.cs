@@ -13,7 +13,7 @@ namespace Biblioteca.Models
                 bc.Livros.Add(l);
                 bc.SaveChanges();
             }
-        }
+        }//
 
         public void Atualizar(Livro l)
         {
